@@ -1,0 +1,5 @@
+services:
+    api.user_provider:
+        class: ApiBundle\Provider\UserProvider
+        arguments:
+            - '@doctrine.orm.entity_manager'

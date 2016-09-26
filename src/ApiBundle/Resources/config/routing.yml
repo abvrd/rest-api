@@ -1,0 +1,4 @@
+sector :
+    type: rest
+    resource: ApiBundle\Controller\IndustrySectorController
+    name_prefix: api_
